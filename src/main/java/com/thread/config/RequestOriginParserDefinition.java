@@ -28,7 +28,6 @@ public class RequestOriginParserDefinition implements RequestOriginParser {
         public void init() {
             //将自定义的阈值提示加载到应用中
             //黑白名单
-
             WebCallbackManager.setRequestOriginParser(new RequestOriginParserDefinition());
         }
     }
